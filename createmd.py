@@ -9,7 +9,7 @@ lang_description = {
 }
 
 fh = open("kpgexamslinks.md", "w") 
-fh.write("# **Υπερσύνδεσμοι για τα αρχεία προηγούμενων εξετάσεων.**\n\n")
+fh.write("# Υπερσύνδεσμοι για τα αρχεία προηγούμενων εξετάσεων του ΚΠΓ.\n\n")
 
 for key in languages.keys():
     fh.write("## {}\n\n".format(lang_description[key]))
