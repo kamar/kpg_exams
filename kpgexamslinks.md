@@ -73,6 +73,15 @@
 
 ## Ισπανικά
 
+  - https://www.minedu.gov.gr/publications/kpgdocs/2019b/2019b_esp_b_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2019b/2019b_esp_b_audio.mp3
+  - https://www.minedu.gov.gr/publications/kpgdocs/2019b/2019b_esp_c_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2019b/2019b_esp_c_audio.mp3
+  - https://www.minedu.gov.gr/publications/kpgdocs/2019a/2019a_esp_a_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2019a/2019a_esp_a_audio.mp3
+  - https://www.minedu.gov.gr/publications/kpgdocs/2019a/2019a_esp_b_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2019a/2019a_esp_b_audio.mp3
+  - https://www.minedu.gov.gr/publications/kpgdocs/2019a/2019a_esp_c_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2019a/2019a_esp_c_audio.mp3
   - https://rcel2.enl.uoa.gr/kpg/files/past_papers/spanish/2014-05/ES_B_MAY14.zip
-
 
