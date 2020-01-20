@@ -71,3 +71,8 @@
   - https://www.minedu.gov.gr/publications/kpgdocs/2017a/2017a_eng_c_audio.mp3
 
 
+## Ισπανικά
+
+  - https://rcel2.enl.uoa.gr/kpg/files/past_papers/spanish/2014-05/ES_B_MAY14.zip
+
+

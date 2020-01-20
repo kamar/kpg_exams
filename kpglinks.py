@@ -70,5 +70,6 @@ languages = {
     "https://www.minedu.gov.gr/publications/kpgdocs/2017a/2017a_eng_b_audio.mp3", 
     "https://www.minedu.gov.gr/publications/kpgdocs/2017a/2017a_eng_c_text.zip", 
     "https://www.minedu.gov.gr/publications/kpgdocs/2017a/2017a_eng_c_audio.mp3"
-]
+],
+'spanish': ["https://rcel2.enl.uoa.gr/kpg/files/past_papers/spanish/2014-05/ES_B_MAY14.zip"]
 }
