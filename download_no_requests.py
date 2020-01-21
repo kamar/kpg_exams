@@ -61,6 +61,7 @@ def download_files(*linkgroups):
                             if not buffer:
                                 break
                             megethos_ak += len(buffer)
+                            fh.write(buffer)
                             prcnt = (megethos_ak / file_size)
                             katastasi = "{0:>6,d}kb {1:.2%}".format(round(megethos_ak/1024),\
                                                         prcnt)
@@ -68,9 +69,7 @@ def download_files(*linkgroups):
                             print("{} κατέβηκαν: {}".format(file_name, katastasi), end="\r")
                             print(""*80 ,end="\r")
                 else:
-                    print("Το αρχείο {} υπάρχει ήδη.".format(new_file_path), end="\r")
-                    print(" "*80, end="\r")
-
+                    print("Το αρχείο {} υπάρχει ήδη.".format(new_file_path))
                     continue        
         except KeyError:
             print("Η γλώσσα ({}) που επιθυμείτε δεν υπάρχει.".format(group))
@@ -78,7 +77,6 @@ def download_files(*linkgroups):
             for k in languages.keys():
                 print(k)
         print()
-    
 
 
 if __name__ == '__main__':
@@ -86,4 +84,4 @@ if __name__ == '__main__':
         print(sys.argv)
         download_files(*sys.argv[1:])
     else:
-        download_files('chinasish')
+        download_files('spanish')
