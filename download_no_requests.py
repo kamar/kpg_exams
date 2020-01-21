@@ -16,6 +16,7 @@
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ###########################################################################
 import os
+import sys
 import urllib.request
 import urllib.parse
 from kpglinks import languages
@@ -27,7 +28,12 @@ def download_files(*linkgroups):
     linkgroups: The language or languages who files downloads.
     Example: download_files('german')
              download_files('spanish', 'english')
+             download_files('all') -> Downloads all available files.
     """
+
+    if 'all' in linkgroups:
+        linkgroups = [k for k in languages.keys()]
+
     for group in linkgroups:
         try:
             grouplist = languages[group]
@@ -35,7 +41,7 @@ def download_files(*linkgroups):
             
                 directory = link.split('/')[-2]
                 file_name = link.split('/')[-1]
-                save_path = '{0}/{1}'.format(str(group), directory)
+                save_path = 'pastpapers/{0}/{1}'.format(str(group), directory)
                 new_file_path = os.path.join(save_path, file_name)
                 link = urllib.parse.unquote(link)
                 site = urllib.request.urlopen(link)
@@ -55,13 +61,22 @@ def download_files(*linkgroups):
                             if not buffer:
                                 break
                             megethos_ak += len(buffer)
-                            prcnt = (megethos_arxeiou_kt / file_size)
-                            katastasi = "{0:>6,d}kb {1:.2%}".format(round(megethos_at/1024),\
+                            prcnt = (megethos_ak / file_size)
+                            katastasi = "{0:>6,d}kb {1:.2%}".format(round(megethos_ak/1024),\
                                                         prcnt)
                             katastasi = katastasi + " " + "=" * int(prcnt * 100 / 2) + ">"
-                            print("Κατέβηκαν: {}".format(katastasi), end="\r")
-        except:
-            pass
+                            print("{} κατέβηκαν: {}".format(file_name, katastasi), end="\r")
+                            print(""*80 ,end="\r")
+                else:
+                    print("Το αρχείο {} υπάρχει ήδη.".format(new_file_path), end="\r")
+                    print(" "*80, end="\r")
+
+                    continue        
+        except KeyError:
+            print("Η γλώσσα ({}) που επιθυμείτε δεν υπάρχει.".format(group))
+            print("Οι διαθέσιμες γλώσσες είναι:")
+            for k in languages.keys():
+                print(k)
         print()
     
 
@@ -71,4 +86,4 @@ if __name__ == '__main__':
         print(sys.argv)
         download_files(*sys.argv[1:])
     else:
-        download_files('spanish')
+        download_files('chinasish')

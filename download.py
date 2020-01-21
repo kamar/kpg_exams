@@ -29,7 +29,12 @@ def download_files(*linkgroups):
     linkgroups: The language or languages who files downloads.
     Example: download_files('german')
              download_files('spanish', 'english')
+             download_files('all') -> Downloads all available files.
     """
+    
+    if 'all' in linkgroups:
+        linkgroups = [k for k in languages.keys()]
+
     for group in linkgroups:
         try:
             grouplist = languages[group]
