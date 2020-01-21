@@ -102,3 +102,71 @@
   - https://rcel2.enl.uoa.gr/kpg/files/past_papers/spanish/2014-05/ES_A_MAY14.zip
 
 
+## Ιταλικά
+
+  - https://www.minedu.gov.gr/publications/kpgdocs/2019b/2019b_ita_b_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2019b/2019b_ita_b_audio.mp3
+  - https://www.minedu.gov.gr/publications/kpgdocs/2019b/2019b_ita_c_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2019b/2019b_ita_c_audio.mp3
+  - https://www.minedu.gov.gr/publications/kpgdocs/2019a/2019a_ita_a_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2019a/2019a_ita_a_audio.mp3
+  - https://www.minedu.gov.gr/publications/kpgdocs/2019a/2019a_ita_b_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2019a/2019a_ita_b_audio.mp3
+  - https://www.minedu.gov.gr/publications/kpgdocs/2019a/2019a_ita_c_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2019a/2019a_ita_c_audio.mp3
+  - https://www.minedu.gov.gr/publications/kpgdocs/2018b/2018b_ita_b_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2018b/2018b_ita_b_audio.mp3
+  - https://www.minedu.gov.gr/publications/kpgdocs/2018b/2018b_ita_c_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2018b/2018b_ita_c_audio.mp3
+  - https://www.minedu.gov.gr/publications/kpgdocs/2018a/2018a_ita_a_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2018a/2018a_ita_a_audio.mp3
+  - https://www.minedu.gov.gr/publications/kpgdocs/2018a/2018a_ita_b_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2018a/2018a_ita_b_audio.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2018a/2018a_ita_c_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2018a/2018a_ita_c_audio.mp3
+  - https://www.minedu.gov.gr/publications/kpgdocs/2017b/2017b_ita_b_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2017b/2017b_ita_b_audio.mp3
+  - https://www.minedu.gov.gr/publications/kpgdocs/2017b/2017b_ita_c_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2017b/2017b_ita_c_audio.mp3
+  - https://www.minedu.gov.gr/publications/kpgdocs/2017a/2017a_ita_a_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2017a/2017a_ita_a_audio.mp3
+  - https://www.minedu.gov.gr/publications/kpgdocs/2017a/2017a_ita_b_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2017a/2017a_ita_b_audio.mp3
+  - https://www.minedu.gov.gr/publications/kpgdocs/2017a/2017a_ita_c_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2017a/2017a_ita_c_audio.mp3
+
+
+## Γαλλικά
+
+  - https://www.minedu.gov.gr/publications/kpgdocs/2019b/2019b_fra_b_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2019b/2019b_fra_b_audio.mp3
+  - https://www.minedu.gov.gr/publications/kpgdocs/2019b/2019b_fra_c_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2019b/2019b_fra_c_audio.mp3
+  - https://www.minedu.gov.gr/publications/kpgdocs/2019a/2019a_fra_a_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2019a/2019a_fra_a_audio.mp3
+  - https://www.minedu.gov.gr/publications/kpgdocs/2019a/2019a_fra_b_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2019a/2019a_fra_b_audio.mp3
+  - https://www.minedu.gov.gr/publications/kpgdocs/2019a/2019a_fra_c_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2019a/2019a_fra_c_audio.mp3
+  - https://www.minedu.gov.gr/publications/kpgdocs/2018b/2018b_fra_b_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2018b/2018b_fra_b_audio.mp3
+  - https://www.minedu.gov.gr/publications/kpgdocs/2018b/2018b_fra_c_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2018b/2018b_fra_c_audio.mp3
+  - https://www.minedu.gov.gr/publications/kpgdocs/2018a/2018a_fra_a_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2018a/2018a_fra_a_audio.mp3
+  - https://www.minedu.gov.gr/publications/kpgdocs/2018a/2018a_fra_b_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2018a/2018a_fra_b_audio.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2018a/2018a_fra_c_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2018a/2018a_fra_c_audio.mp3
+  - https://www.minedu.gov.gr/publications/kpgdocs/2017b/2017b_fra_b_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2017b/2017b_fra_b_audio.mp3
+  - https://www.minedu.gov.gr/publications/kpgdocs/2017b/2017b_fra_c_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2017b/2017b_fra_c_audio.mp3
+  - https://www.minedu.gov.gr/publications/kpgdocs/2017a/2017a_fra_a_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2017a/2017a_fra_a_audio.mp3
+  - https://www.minedu.gov.gr/publications/kpgdocs/2017a/2017a_fra_b_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2017a/2017a_fra_b_audio.mp3
+  - https://www.minedu.gov.gr/publications/kpgdocs/2017a/2017a_fra_c_text.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2017a/2017a_fra_c_audio.mp3
+
+
