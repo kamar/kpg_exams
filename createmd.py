@@ -20,8 +20,8 @@ from kpglinks import languages
 lang_description = {
     'german': 'Γερμανικά',
     'english': 'Αγγλικά',
-    'france': 'Γαλλικά',
-    'italic': 'Ιταλικά',
+    'french': 'Γαλλικά',
+    'italian': 'Ιταλικά',
     'spanish': 'Ισπανικά'
 }
 

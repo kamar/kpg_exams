@@ -117,7 +117,7 @@ languages = {
     "https://rcel2.enl.uoa.gr/kpg/files/past_papers/spanish/2014-05/ES_B_MAY14.zip", 
     "https://rcel2.enl.uoa.gr/kpg/files/past_papers/spanish/2014-05/ES_C_MAY14.zip", 
     "https://rcel2.enl.uoa.gr/kpg/files/past_papers/spanish/2014-05/ES_A_MAY14.zip"], 
-'italic': [
+'italian': [
     "https://www.minedu.gov.gr/publications/kpgdocs/2019b/2019b_ita_b_text.zip", 
     "https://www.minedu.gov.gr/publications/kpgdocs/2019b/2019b_ita_b_audio.mp3", 
     "https://www.minedu.gov.gr/publications/kpgdocs/2019b/2019b_ita_c_text.zip", 
@@ -149,7 +149,7 @@ languages = {
     "https://www.minedu.gov.gr/publications/kpgdocs/2017a/2017a_ita_c_text.zip", 
     "https://www.minedu.gov.gr/publications/kpgdocs/2017a/2017a_ita_c_audio.mp3" 
 ],
-'france': [
+'french': [
     "https://www.minedu.gov.gr/publications/kpgdocs/2019b/2019b_fra_b_text.zip", 
     "https://www.minedu.gov.gr/publications/kpgdocs/2019b/2019b_fra_b_audio.mp3", 
     "https://www.minedu.gov.gr/publications/kpgdocs/2019b/2019b_fra_c_text.zip", 

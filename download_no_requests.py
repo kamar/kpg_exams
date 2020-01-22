@@ -19,6 +19,7 @@ import os
 import sys
 import urllib.request
 import urllib.parse
+from stat import *
 from kpglinks import languages
 
 
@@ -52,7 +53,9 @@ def download_files(*linkgroups):
 
                 if not os.path.exists(save_path):
                     os.makedirs(save_path)
-                if not os.path.exists(new_file_path):
+
+                if not os.path.exists(new_file_path) or check_same_file(file_size, \
+                    local_file_size(new_file_path)) == False:
                     megethos_ak = 0
                     with open(new_file_path, "wb") as fh:
                         while True:
@@ -78,10 +81,31 @@ def download_files(*linkgroups):
                 print(k)
         print()
 
+#TODO: Move functions to another file and import them.
+def check_same_file(remote_s_info, local_s_info):
+    if remote_s_info == local_s_info:
+        return True
+    else:
+        return False
+
+
+def local_file_size(fname):
+    """
+    Returns the file size in bytes.
+    If file doesn't exists, returns -1
+    PARAMETERS:statinfo.st_size
+        fname: The path of the file.
+    """
+    try:
+        statinfo = os.stat(fname)
+        return statinfo.st_size
+    except FileNotFoundError:
+        return -1
+                    
 
 if __name__ == '__main__':
     if len(sys.argv) > 1:
         print(sys.argv)
         download_files(*sys.argv[1:])
     else:
-        download_files('spanish')
+        download_files('spanisha')
