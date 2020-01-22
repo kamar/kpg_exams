@@ -40,45 +40,53 @@ def download_files(*linkgroups):
             grouplist = languages[group]
             for link in grouplist:
             
-                directory = link.split('/')[-2]
-                file_name = link.split('/')[-1]
-                save_path = 'pastpapers/{0}/{1}'.format(str(group), directory)
-                new_file_path = os.path.join(save_path, file_name)
-                link = urllib.parse.unquote(link)
-                site = urllib.request.urlopen(link)
-                r = site.info()
-                block_size = 2048
-                file_size = int(r.get('Content-Length'))
-                file_seek = 0
+                try:
+                    directory = link.split('/')[-2]
+                    file_name = link.split('/')[-1]
+                    save_path = 'pastpapers/{0}/{1}'.format(str(group), directory)
+                    new_file_path = os.path.join(save_path, file_name)
+                    link = urllib.parse.unquote(link)
+                    site = urllib.request.urlopen(link)
+                    r = site.info()
+                    block_size = 2048
+                    file_size = int(r.get('Content-Length'))
+                    file_seek = 0
 
-                if not os.path.exists(save_path):
-                    os.makedirs(save_path)
+                    if not os.path.exists(save_path):
+                        os.makedirs(save_path)
 
-                if not os.path.exists(new_file_path) or check_same_file(file_size, \
-                    local_file_size(new_file_path)) == False:
-                    megethos_ak = 0
-                    with open(new_file_path, "wb") as fh:
-                        while True:
-                            site.read(file_seek)
-                            buffer = site.read(block_size)
-                            if not buffer:
-                                break
-                            megethos_ak += len(buffer)
-                            fh.write(buffer)
-                            prcnt = (megethos_ak / file_size)
-                            katastasi = "{0:>6,d}kb {1:.2%}".format(round(megethos_ak/1024),\
-                                                        prcnt)
-                            katastasi = katastasi + " " + "=" * int(prcnt * 100 / 2) + ">"
-                            print("{} κατέβηκαν: {}".format(file_name, katastasi), end="\r")
-                            print(""*80 ,end="\r")
-                else:
-                    print("Το αρχείο {} υπάρχει ήδη.".format(new_file_path))
-                    continue        
+                    if not os.path.exists(new_file_path) or check_same_file(file_size, \
+                        local_file_size(new_file_path)) == False:
+                        megethos_ak = 0
+                        with open(new_file_path, "wb") as fh:
+                            while True:
+                                site.read(file_seek)
+                                buffer = site.read(block_size)
+                                if not buffer:
+                                    break
+                                megethos_ak += len(buffer)
+                                fh.write(buffer)
+                                prcnt = (megethos_ak / file_size)
+                                katastasi = "{0:>6,d}kb {1:.2%}".format(round(megethos_ak/1024),\
+                                                            prcnt)
+                                katastasi = katastasi + " " + "=" * int(prcnt * 100 / 4) + ">"
+                                print("{} κατέβηκαν: {}".format(file_name, katastasi), end="\r")
+                                print(""*150, end="\r")
+                    else:
+                        print("Το αρχείο {} υπάρχει ήδη.".format(new_file_path))
+                        continue        
+                except urllib.error.HTTPError as e:
+                    print(e)
+                    print("Ο σύνδεσμος δεν καταλήγει σε αρχείο.\n({})".format(link))
+                    continue
         except KeyError:
             print("Η γλώσσα ({}) που επιθυμείτε δεν υπάρχει.".format(group))
             print("Οι διαθέσιμες γλώσσες είναι:")
             for k in languages.keys():
                 print(k)
+        except KeyboardInterrupt:
+            print("Πατήθηκε Ctrl + C. Έξοδος")
+            sys.exit()
         print()
 
 #TODO: Move functions to another file and import them.
