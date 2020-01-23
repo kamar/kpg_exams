@@ -85,7 +85,8 @@ def download_files(*linkgroups):
             for k in languages.keys():
                 print(k)
         except KeyboardInterrupt:
-            print("Πατήθηκε Ctrl + C. Έξοδος")
+            print("\nΠατήθηκε Ctrl + C. Έξοδος")
+            os.remove(new_file_path)
             sys.exit()
         print()
 
@@ -116,4 +117,4 @@ if __name__ == '__main__':
         print(sys.argv)
         download_files(*sys.argv[1:])
     else:
-        download_files('spanisha')
+        download_files('spanish')
