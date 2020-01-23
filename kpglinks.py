@@ -179,5 +179,22 @@ languages = {
     "https://www.minedu.gov.gr/publications/kpgdocs/2017a/2017a_fra_b_audio.mp3",
     "https://www.minedu.gov.gr/publications/kpgdocs/2017a/2017a_fra_c_text.zip", 
     "https://www.minedu.gov.gr/publications/kpgdocs/2017a/2017a_fra_c_audio.mp3" 
+], 
+'turkish': [
+    "https://www.minedu.gov.gr/publications/kpgdocs/2019b/2019b_tur_b_text.zip", 
+    "https://www.minedu.gov.gr/publications/kpgdocs/2019b/2019b_tur_b_audio.mp3", 
+    "https://www.minedu.gov.gr/publications/kpgdocs/2019b/2019b_tur_c_text.zip", 
+    "https://www.minedu.gov.gr/publications/kpgdocs/2019b/2019b_tur_c_audio.mp3", 
+    "https://www.minedu.gov.gr/publications/kpgdocs/2018b/2018b_tur_b_text.zip", 
+    "https://www.minedu.gov.gr/publications/kpgdocs/2018b/2018b_tur_b_audio.mp3", 
+    "https://www.minedu.gov.gr/publications/kpgdocs/2018b/2018b_tur_c_text.zip", 
+    "https://www.minedu.gov.gr/publications/kpgdocs/2018b/2018b_tur_c_audio.mp3", 
+    "https://www.minedu.gov.gr/publications/kpgdocs/2018a/2018a_tur_c_text.zip", 
+    "https://www.minedu.gov.gr/publications/kpgdocs/2018a/2018a_tur_c_audio.mpe", 
+    "https://www.minedu.gov.gr/publications/kpgdocs/2017b/2017b_tur_b_text.zip", 
+    "https://www.minedu.gov.gr/publications/kpgdocs/2017b/2017b_tur_b_audio.mp3", 
+    "https://www.minedu.gov.gr/publications/kpgdocs/2017b/2017b_tur_c1_text.zip", 
+    "https://www.minedu.gov.gr/publications/kpgdocs/2017b/2017b_tur_c1_audio.mp3"
+
 ]
 }

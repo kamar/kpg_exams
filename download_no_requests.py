@@ -19,7 +19,7 @@ import os
 import sys
 import urllib.request
 import urllib.parse
-from stat import *
+from stat import ST_SIZE
 from kpglinks import languages
 
 

@@ -22,7 +22,8 @@ lang_description = {
     'english': 'Αγγλικά',
     'french': 'Γαλλικά',
     'italian': 'Ιταλικά',
-    'spanish': 'Ισπανικά'
+    'spanish': 'Ισπανικά',
+    'turkish': "Τούρκικα"
 }
 
 fh = open("kpgexamslinks.md", "w") 
