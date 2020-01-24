@@ -17,6 +17,7 @@
 ###########################################################################
 import os
 import sys
+import logging
 import urllib.request
 import urllib.parse
 from stat import ST_SIZE
@@ -31,6 +32,9 @@ def download_files(*linkgroups):
              download_files('spanish', 'english')
              download_files('all') -> Downloads all available files.
     """
+
+    logging.basicConfig(filename='kpglinks.log',format='%(levelname)s: %(asctime)s %(message)s', level=logging.WARNING)
+    error_signal = False
 
     if 'all' in linkgroups:
         linkgroups = [k for k in languages.keys()]
@@ -52,6 +56,8 @@ def download_files(*linkgroups):
                     try:
                         file_size = int(r.get('Content-Length'))
                     except TypeError:
+                        logging.warning("Ο σύνδεσμος {} δημιούργησε σφάλμα.".format(link))
+                        error_signal = True
                         continue
                     file_seek = 0
 
@@ -81,6 +87,8 @@ def download_files(*linkgroups):
                 except urllib.error.HTTPError as e:
                     print(e)
                     print("Ο σύνδεσμος δεν καταλήγει σε αρχείο.\n({})".format(link))
+                    logging.warning('{}: {}'.format(e, link))
+                    error_signal = True
                     continue
         except KeyError:
             print("Η γλώσσα ({}) που επιθυμείτε δεν υπάρχει.".format(group))
@@ -92,6 +100,9 @@ def download_files(*linkgroups):
             os.remove(new_file_path)
             sys.exit()
         print()
+    if error_signal:
+        print("Παρουσιάστηκαν σφάλματα. Παρακαλώ διαβάστε το αρχείο καταγραφών.")
+
 
 #TODO: Move functions to another file and import them.
 def check_same_file(remote_s_info, local_s_info):
@@ -120,4 +131,5 @@ if __name__ == '__main__':
         # print(sys.argv)
         download_files(*sys.argv[1:])
     else:
-        download_files('spanish')
+        print("Κατεβάζω όλα τα αρχεία.")
+        download_files('all')
