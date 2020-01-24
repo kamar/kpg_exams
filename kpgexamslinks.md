@@ -120,7 +120,7 @@
   - https://www.minedu.gov.gr/publications/kpgdocs/2018a/2018a_ita_a_text.zip
   - https://www.minedu.gov.gr/publications/kpgdocs/2018a/2018a_ita_a_audio.mp3
   - https://www.minedu.gov.gr/publications/kpgdocs/2018a/2018a_ita_b_text.zip
-  - https://www.minedu.gov.gr/publications/kpgdocs/2018a/2018a_ita_b_audio.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2018a/2018a_ita_b_audio.mp3
   - https://www.minedu.gov.gr/publications/kpgdocs/2018a/2018a_ita_c_text.zip
   - https://www.minedu.gov.gr/publications/kpgdocs/2018a/2018a_ita_c_audio.mp3
   - https://www.minedu.gov.gr/publications/kpgdocs/2017b/2017b_ita_b_text.zip
@@ -154,7 +154,7 @@
   - https://www.minedu.gov.gr/publications/kpgdocs/2018a/2018a_fra_a_text.zip
   - https://www.minedu.gov.gr/publications/kpgdocs/2018a/2018a_fra_a_audio.mp3
   - https://www.minedu.gov.gr/publications/kpgdocs/2018a/2018a_fra_b_text.zip
-  - https://www.minedu.gov.gr/publications/kpgdocs/2018a/2018a_fra_b_audio.zip
+  - https://www.minedu.gov.gr/publications/kpgdocs/2018a/2018a_fra_b_audio.mp3
   - https://www.minedu.gov.gr/publications/kpgdocs/2018a/2018a_fra_c_text.zip
   - https://www.minedu.gov.gr/publications/kpgdocs/2018a/2018a_fra_c_audio.mp3
   - https://www.minedu.gov.gr/publications/kpgdocs/2017b/2017b_fra_b_text.zip
@@ -180,7 +180,7 @@
   - https://www.minedu.gov.gr/publications/kpgdocs/2018b/2018b_tur_c_text.zip
   - https://www.minedu.gov.gr/publications/kpgdocs/2018b/2018b_tur_c_audio.mp3
   - https://www.minedu.gov.gr/publications/kpgdocs/2018a/2018a_tur_c_text.zip
-  - https://www.minedu.gov.gr/publications/kpgdocs/2018a/2018a_tur_c_audio.mpe
+  - https://www.minedu.gov.gr/publications/kpgdocs/2018a/2018a_tur_c_audio.mp3
   - https://www.minedu.gov.gr/publications/kpgdocs/2017b/2017b_tur_b_text.zip
   - https://www.minedu.gov.gr/publications/kpgdocs/2017b/2017b_tur_b_audio.mp3
   - https://www.minedu.gov.gr/publications/kpgdocs/2017b/2017b_tur_c1_text.zip
