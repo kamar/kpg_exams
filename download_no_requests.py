@@ -49,7 +49,10 @@ def download_files(*linkgroups):
                     site = urllib.request.urlopen(link)
                     r = site.info()
                     block_size = 2048
-                    file_size = int(r.get('Content-Length'))
+                    try:
+                        file_size = int(r.get('Content-Length'))
+                    except TypeError:
+                        continue
                     file_seek = 0
 
                     if not os.path.exists(save_path):
@@ -114,7 +117,7 @@ def local_file_size(fname):
 
 if __name__ == '__main__':
     if len(sys.argv) > 1:
-        print(sys.argv)
+        # print(sys.argv)
         download_files(*sys.argv[1:])
     else:
         download_files('spanish')
