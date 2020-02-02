@@ -18,6 +18,7 @@
 import os
 import sys
 import logging
+import http.client
 import urllib.request
 import urllib.parse
 from stat import ST_SIZE
@@ -49,7 +50,7 @@ def download_files(*linkgroups):
                     file_name = link.split('/')[-1]
                     save_path = 'pastpapers/{0}/{1}'.format(str(group), directory)
                     new_file_path = os.path.join(save_path, file_name)
-                    link = urllib.parse.unquote(link)
+                    # link = urllib.parse.unquote(link)
                     site = urllib.request.urlopen(link)
                     r = site.info()
                     block_size = 2048
@@ -88,6 +89,11 @@ def download_files(*linkgroups):
                     print(e)
                     print("Ο σύνδεσμος δεν καταλήγει σε αρχείο.\n({})".format(link))
                     logging.warning('{}: {}'.format(e, link))
+                    error_signal = True
+                    continue
+                except http.client.InvalidURL as e:
+                    print(e)
+                    logging.error('{}: {}'.format(e, link))
                     error_signal = True
                     continue
         except KeyError:

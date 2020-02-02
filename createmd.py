@@ -15,6 +15,7 @@
 #    You should have received a copy of the GNU General Public License
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ###########################################################################
+from urllib.parse import unquote
 from kpglinks import languages
 
 lang_description = {
@@ -32,6 +33,6 @@ fh.write("# Υπερσύνδεσμοι για τα αρχεία προηγούμ
 for key in languages.keys():
     fh.write("## {}\n\n".format(lang_description[key]))
     for link in languages[key]:
-        fh.write("  - {}\n".format(link))
+        fh.write("  - [{}]({})\n".format(unquote(link), link))
     fh.write("\n"*2)
 fh.close()
